@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 4rem;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: "open sans", sans-serif; */
+    align-items: center;
+    font-weight: 400;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4.3rem 4rem 0;
+    
+}
+.container {
+height: 100vh;
+}
+
+.logo img {
+    height: 48px;
+    width: 48px;
+}
+.navbar {
+    letter-spacing: 1.1px;
+    font-weight: 400;
+}
+.navbar a {
+    text-decoration: none;
+    padding-left: 2rem;
+    color: #556369;
+    opacity: 0.5;
+    text-transform: uppercase;
+
+}.navbar a:hover {
+    color: #000000;
+    opacity: 1;
+    font-weight: 600;
+}
+.login {
+    letter-spacing: 1.5px;
+    font-weight: 600;
+
+}
+
+
+.login .btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.2rem 0.4rem;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    background: #171717;
+}
+.login .btn:hover {
+    background-color: #556369;
+}
+
+.content {
+    margin: 0.8em;
+    padding: 0.8em;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+.content .text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.content p {
+    max-width: 20rem;
+    padding-right: 3rem;
+    font-size: 16px;
+}
+.content .img img {
+    max-height: 100%;
+    max-width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .content {
+        /* display: block; */
+        overflow: hidden;
+        text-align: center;
+    }
+    /* .content p {
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    } */
+    .content .img {
+        display: none;
+    }
+    .content .text {
+        display: block;
+    }
+ 
+}
+
+/* main {
+    display: flex;
+    align-items: center;
+} */
+
+
+.chart {
+    margin-bottom: 32px;
+    height: 80vh;
+}
+
+/* /////////////// ANNOUNCEMENTS STUFF /////////////// */ 
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.📣  {
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    background-color: #e8e8e9;
+    margin-bottom: 32px;
+}
+.📣  span {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    max-width: 60%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.75;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 500;
+}
+/* /////////////// MAIN SECTIONS STUFF /////////////// */ 
+.🌯 {
+    display: flex;
+    margin-bottom: 32px;
+}
+.🌯 .text {
+    width: 50%;
+    padding: 32px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #007f6e;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    -moz-osx-font-smoothing: grayscale;
+}
+.🌯 .image {
+    width: 50%;
+    height: 625px;
+}
+.🌯 .image img {
+    height: 100%;
+    max-width: 100%;
+    flex-basis: 60%;
+}
+.text h3 {
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+.text .cta {
+    display: inline-block;
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+.cta:hover {
+    background-color: hsla(0,0%,100%,.12);
+    padding: 7px 20px;
+}
+.second .text h1 {
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.second .text h3 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+
+
+
+
+/* ------------- STORY PAGE ------------- */
+.story-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12rem;
+    
+}
+.story-text {
+    width: 50%;
+    padding: 32px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #007f6e;
+    line-height: 1.5;
+    letter-spacing: .07em;
+    font-weight: 500;
+    -moz-osx-font-smoothing: grayscale;
+}
+.story-img {
+    max-width: 100%;
+}
