@@ -79,7 +79,7 @@ background-position: bottom; */
     align-items: center;
 }
 .content .text h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 500;
     color: rgb(0, 127, 109);
 }
@@ -87,7 +87,7 @@ background-position: bottom; */
     max-width: 20rem;
     padding-right: 3rem;
     font-size: 16px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.09em;
     font-weight: 400;
 }
 .content .img img {
@@ -109,8 +109,8 @@ background-position: bottom; */
     .content .img {
         display: none;
     }
-    .content .text {
-        display: block;
+    .content .text p {
+        text-align: center;
     }
  
 }
