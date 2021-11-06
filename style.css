@@ -4,6 +4,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 4rem;
     padding: 0;
@@ -14,6 +15,7 @@ body {
     max-width: 70rem;
     margin: 0 auto;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -21,6 +23,7 @@ header {
     margin: 4.3rem 4rem 0;
     
 }
+
 .container {
 min-height: 80vh;
 /* background-image: url(/assets/bg.png);
@@ -259,4 +262,14 @@ background-position: bottom; */
     max-width: 100%;
     /* flex-basis: 60%; */
     
+}
+
+/* ------------- CONTACT PAGE ------------- */
+.grid-container {
+    margin-top: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 5rem;
+    margin: 20rem 4rem 0rem 4rem;
+    border: #007f6e solid;
 }
