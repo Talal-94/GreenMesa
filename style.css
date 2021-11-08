@@ -30,7 +30,7 @@ header {
     position: fixed;
     max-width: 70rem;
     margin: 0 auto;
-
+    opacity: .9;
 }
 
 .container {
