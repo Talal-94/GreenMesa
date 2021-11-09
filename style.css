@@ -375,7 +375,7 @@ header {
     color: #007f6e;
     line-height: 1.5;
     -moz-osx-font-smoothing: grayscale;
-
+    
 }
 .grid-container2 {
     display: grid;
@@ -385,7 +385,9 @@ header {
     padding: 0;
     align-items: center;
     gap: 1rem;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    text-align: center;
+    margin-top: 20rem;
 }
 
 @media screen and (max-width: 700px) {
