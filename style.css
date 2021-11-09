@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 4rem 0.3rem;
+    padding: 1.5rem 3rem 0.3rem;
     background-color: white;
     top: 0;
     left: 0;
@@ -36,10 +36,6 @@ header {
 .container {
     min-height: 80vh;
     margin: 4.3rem 4rem 0;
-    /* background-image: url(/assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom; */
 }
 
 .logo img {
@@ -48,12 +44,12 @@ header {
 }
 
 .navbar {
-    letter-spacing: 1.2px;
+    letter-spacing: 1.1px;
     font-weight: 400;
 }
 
 .navbar a {
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     color: #556369;
     opacity: 0.5;
     text-transform: uppercase;
@@ -65,14 +61,11 @@ header {
     font-weight: 600;
 }
 
-.navbar a:focus {
-    border-bottom: 1px solid #007f6e;
-}
 
 .login {
-    letter-spacing: 1.5px;
-    font-weight: 600;
-
+    letter-spacing: 1px;
+    font-weight: 300;
+    
 }
 
 .login .btn {
@@ -95,6 +88,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .content .text h1 {
     font-family: 'gotham';
     font-size: clamp(5rem, 5vw, 8rem);
@@ -103,8 +97,8 @@ header {
 }
 
 .content .text h4 {
-    font-weight: 500;
-    letter-spacing: 0.1em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
 }
 
 .content p {
@@ -113,10 +107,12 @@ header {
     letter-spacing: 0.1em;
     font-weight: 400;
 }
+
 .content .img img {
     max-height: 100%;
     max-width: 100%;
 }
+
 @media screen and (max-width: 800px) {
     .content {
         display: block;
@@ -134,23 +130,22 @@ header {
  
 }
 
-/* main {
-    display: flex;
-    align-items: center;
-} */
-
-
 .chart {
     margin-bottom: 32px;
     min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* /////////////// ANNOUNCEMENTS STUFF /////////////// */ 
+
 .main-container {
-    max-width: 1440px;
+    max-width: 70rem;
     margin: 0 auto;
     padding: 0.8em;
 }
+
 .announcments  {
     display: flex;
     justify-content: center;
@@ -158,6 +153,7 @@ header {
     background-color: #e8e8e9;
     margin-bottom: 32px;
 }
+
 .announcments  span {
     padding-top: 3.2rem;
     padding-bottom: 3.2rem;
@@ -166,34 +162,39 @@ header {
     font-size: 19px;
     line-height: 1.75;
     -moz-osx-font-smoothing: grayscale;
-    font-weight: 500;
+    font-weight: 400;
 }
 /* /////////////// MAIN SECTIONS STUFF /////////////// */ 
+
 .statements {
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
+
 .statements .text {
     width: 50%;
-    padding: 32px 35px;
+    padding: 2rem 2.1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #007f6e;
     line-height: 1.5;
-    letter-spacing: -.01em;
+    letter-spacing: .01em;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .statements .image {
     width: 100%;
     height: 500px;
 }
+
 .statements .image img {
     height: 100%;
     max-width: 100%;
     flex-basis: 60%;
 }
+
 .text h3 {
     margin: 0;
     text-align: center;
@@ -203,30 +204,7 @@ header {
     font-size: 24px;
     line-height: 1.5;
 }
-/* .text .cta {
-    display: inline-block;
-    background: none;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 50px;
-    padding: 7px 16px;
-    font-weight: 600;
-    line-height: 1.2;
-    text-align: center;
-    text-decoration: none;
-    transition: all .2s ease;
-    cursor: pointer;
-}
-.cta:hover {
-    background-color: hsla(0,0%,100%,.12);
-    padding: 7px 20px;
-} */
 
-.second .text h1 {
-    letter-spacing: 1.5px;
-    line-height: 1.2;
-    font-weight: 700;
-}
 .second .text h3 {
     font-size: 24px;
     line-height: 1.5;
@@ -243,8 +221,6 @@ header {
     color: black;
     background-color: #e8e8e9;
     padding: auto auto;
-    /* justify-content: space-between;
-    align-items: center; */
 }
 
 .footer-container ul {
@@ -278,33 +254,41 @@ header {
 }
 
 
+
+
+
+
 /* ------------- STORY PAGE ------------- */
+
 .title {
-    
     display: flex;
     justify-content: center;
     padding: 0;
     margin-top: 5rem;
     color: rgba(0, 127, 109, .8);
 }
+
 .title .text {
     text-transform: uppercase;
     font-size: 2.2rem;
     font-family: 'gotham';
 }
 
+.story-container {
+    border: 1px solid red;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template: 1fr / repeat(3, 1fr);
 
-
-.story-container,
-.story-container-2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 8rem;
-    
 }
+
+.big-grid {
+    grid-column: 1 / -1;
+}
+
 .story-text {
-    width: 50%;
-    padding: 32px 35px;
+    /* width: 50%;
+    padding: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -313,13 +297,15 @@ header {
     line-height: 1.5;
     letter-spacing: .07em;
     font-weight: 500;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale; */
 }
+
 .story-img {
-    width: 50%;
+    /* width: 50%; */
 }
+
 .story-img img {
-    height: 100%;
+    height: auto;
     max-width: 100%;
     /* flex-basis: 60%; */
     
@@ -345,9 +331,9 @@ header {
     max-width: 70rem;
     margin: 4rem;
     padding: 0;
-    /* font-family: 'Montserrat', sans-serif; */
     align-items: center;
     gap: 1rem;
+    border: 1px solid red;
 }
 
 .grid-container1 img {
@@ -372,9 +358,9 @@ header {
     max-width: 70rem;
     margin: 4rem;
     padding: 0;
-    /* font-family: 'Montserrat', sans-serif; */
     align-items: center;
     gap: 1rem;
+    border: 1px solid green;
 }
 
 @media screen and (max-width: 700px) {

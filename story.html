@@ -5,31 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <title>Story</title>
 </head>
 <body>
 
+    <header class="the-header">
+        <div class="logo" onclick="window.location.href='index.html'">
+            <img src="assets/GM-Mark-Colour.png" alt="">
+        </div>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="story.html">story</a>
+            <a href="solutions.html">solutions</a>
+            <a href="contact.html">contact</a>
+        </div>
+        <div class="login">
+            <a href="https://greenmesa-fat.pinnaclevl.com/login" class="btn"> login</a>
+        </div>
+    </header>
+
+
     <div class="container">
 
-        <header class="the-header">
-            <div class="logo" onclick="window.location.href='index.html'">
-                <img src="assets/GM-Mark-Colour.png" alt="">
-            </div>
-            <div class="navbar">
-                <a href="index.html">Home</a>
-                <a href="story.html">story</a>
-                <a href="solutions.html">solutions</a>
-                <a href="contact.html">contact</a>
-            </div>
-            <div class="login">
-                <a href="https://greenmesa-fat.pinnaclevl.com/login" class="btn"> login</a>
-            </div>
-        </header>
         <div class="title">
             <p class="text">Our story</p>
         </div>
 
         <div class="story-container">
+
+            <div class="story-img big-grid">
+                <img src="assets/story1.jpg" alt="" width="">
+            </div>
 
             <div class="story-text">
                 <p>
@@ -41,15 +48,12 @@
                     business’s future, lowering risk and boosting efficiency.
                 </p>
             </div>
-            <div class="story-img">
-                <img src="assets/444.jpg" alt="" width="">
-            </div>
-        </div>
 
-        <div class="story-container-2">
             <div class="story-img">
                 <img src="assets/333.jpg" alt="">
+
             </div>
+
             <div class="story-text">
                 <p>
                     Green Mesa is dedicated to making businesses more
@@ -63,5 +67,19 @@
         </div>
     </div>  
 
+    <footer>
+        <div class = "footer-container">
+            <!-- <div class="footer-text">
+                <h3>
+                    contact info
+                </h3>
+            </div> -->
+            <ul class="social">
+                <li><a href="https://twitter.com/GreenMesaCorp/"><i class='bx bxl-twitter'></i></li>
+                <li><a href="https://www.linkedin.com/company/greenmesa/"><i class='bx bxl-linkedin-square' ></i></li>
+              </ul>
+        
+        </div>
+    </footer>
 </body>
 </html>
