@@ -35,7 +35,7 @@ header {
 
 .container {
     min-height: 80vh;
-    margin: 4.3rem 4rem 0;
+    margin: 4.3rem 1rem 0;
 }
 
 .logo img {
@@ -146,12 +146,13 @@ header {
     padding: 0.8em;
 }
 
-.announcments  {
+.announcments {
     display: flex;
     justify-content: center;
     font-size: 100%;
     background-color: #e8e8e9;
     margin-bottom: 32px;
+    
 }
 
 .announcments  span {
@@ -216,7 +217,7 @@ header {
 .footer-container {
     max-width: 70rem;
     display: flex;
-    margin: 0 auto;
+    margin: 0 1rem;
     justify-content: center;
     color: black;
     background-color: #e8e8e9;
@@ -311,6 +312,22 @@ header {
     
 }
 
+
+.team-container {
+    margin-top: 2rem;
+    border: 1px solid red;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.team-img {
+padding: 1rem;
+}
+
+.team-img img {
+    max-width: 100%;
+}
 /* ------------- CONTACT PAGE ------------- */
 
 
