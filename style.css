@@ -7,12 +7,11 @@
 }
 
 body {
-    margin: 4rem;
-    padding: 0;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: "open sans", sans-serif;
-    align-items: center;
     font-weight: 400;
+    line-height: 1.6;
+    align-items: center;
     max-width: 70rem;
     margin: 0 auto;
 }
@@ -81,6 +80,8 @@ header {
     background-color: #556369;
 }
 
+/* /////////////// HOMEPAGE STUFF /////////////// */ 
+
 .content {
     margin: 0.8em;
     padding: 0.8em;
@@ -143,7 +144,6 @@ header {
 .main-container {
     max-width: 70rem;
     margin: 0 auto;
-    padding: 0.8em;
 }
 
 .announcments {
@@ -169,7 +169,7 @@ header {
 
 .statements {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .statements .text {
@@ -217,7 +217,7 @@ header {
 .footer-container {
     max-width: 70rem;
     display: flex;
-    margin: 0 1rem;
+    margin: 0 auto;
     justify-content: center;
     color: black;
     background-color: #e8e8e9;
@@ -293,7 +293,6 @@ header {
     justify-content: center;
     align-items: center;
     /* color: #007f6e; */
-    line-height: 1.4;
     letter-spacing: .1em;
     font-weight: 500;
     -moz-osx-font-smoothing: grayscale;
@@ -335,6 +334,32 @@ header {
 }
 
 
+
+
+
+
+/* ------------- SOLUTIONS PAGE ------------- */
+
+.solutions-container {
+    min-height: 80vh;
+    margin: 4.3rem 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.solutions {
+    padding: .4rem;
+}
+
+.solutions-container h2 {
+    font-weight: normal;
+    color: #004987;
+}
+
+.solutions-container p {
+    letter-spacing: 1.4px;
+    text-align: start;
+}
 
 /* ------------- CONTACT PAGE ------------- */
 
