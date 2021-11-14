@@ -256,9 +256,6 @@ header {
 
 
 
-
-
-
 /* ------------- STORY PAGE ------------- */
 
 .title {
@@ -336,10 +333,6 @@ header {
 }
 
 
-
-
-
-
 /* ------------- SOLUTIONS PAGE ------------- */
 
 .solutions-container {
@@ -390,7 +383,6 @@ header {
     letter-spacing: 1.4px;
     text-align: start;
 }
-
 
 .solutions-flex {
     display: flex;
