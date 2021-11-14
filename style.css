@@ -280,7 +280,8 @@ header {
     display: grid;
     grid-gap: 1rem;
     grid-template: 1fr / repeat(2, 1fr);
-    
+    align-items: flex-start;
+
 }
 
 .big-grid {
@@ -315,6 +316,7 @@ header {
     display: grid;
     /* grid-gap: 1rem; */
     grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
 }
 
 .team-container h3 {
@@ -388,14 +390,6 @@ header {
     letter-spacing: 1.4px;
     text-align: start;
 }
-/* .announcments {
-    display: flex;
-    justify-content: center;
-    font-size: 100%;
-    background-color: #e8e8e9;
-    margin-bottom: 32px;
-    
-} */
 
 
 .solutions-flex {
@@ -410,6 +404,21 @@ header {
     max-width: 50%;
 }
 
+@media screen and (max-width: 40rem) {
+    .solutions-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .solutions-flex img {
+        order: 1;
+    }
+    .solutions-flex p {
+        order: 2;
+        text-align: center;
+        max-width: 85%;
+    }
+}
 /* ------------- CONTACT PAGE ------------- */
 
 
