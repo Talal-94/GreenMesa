@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 3rem 0.3rem;
+    padding: .8rem 3rem 0.1rem;
     background-color: white;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@ header {
 }
 
 .navbar a {
-    padding-left: 1rem;
+    margin-left: 1rem;
     color: #556369;
     opacity: 0.5;
     text-transform: uppercase;
@@ -78,6 +78,11 @@ header {
 
 .login .btn:hover {
     background-color: #556369;
+}
+
+.current-page {
+    border-bottom: 1px solid #007f6e;
+    opacity: 1;
 }
 
 /* /////////////// HOMEPAGE STUFF /////////////// */ 
@@ -181,7 +186,7 @@ header {
 }
 
 .statements .text {
-    width: 50%;
+    width: 52%;
     padding: 2rem 2.1rem;
     display: flex;
     flex-direction: column;
@@ -260,14 +265,14 @@ header {
     padding-top: 2.2rem;
     padding-bottom: 2.2rem;
     max-width: 60%;
-    font-size: 19px;
+    font-size: 1rem;
     text-align: center;
 }
 
 .footer-container .social a {
     color: #556369;
     opacity: 0.5;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .footer-container .social a:hover {
@@ -331,7 +336,7 @@ header {
 
 
 .team-container {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: grid;
     /* grid-gap: 1rem; */
     grid-template-columns: repeat(3, 1fr);
@@ -343,6 +348,7 @@ header {
     font-weight: 600;
     color: #004987;
     opacity: .8;
+    margin: 0;
 }
 .team-img {
     padding: .2rem;
@@ -356,6 +362,54 @@ header {
 
 
 /* ------------- SOLUTIONS PAGE ------------- */
+
+
+.big-container {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    padding: 15px 7%;
+    padding-bottom: 80px;
+    background-color: linear-gradient(#ccc 50%, #2980b9 50.1%);
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.box {
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 1rem rgba(0,0,0,.3);
+    text-align: center;
+    flex: 1 1 300px;
+}
+
+.box img {
+    height: 100px;
+    margin: 10px 0;
+}
+
+.box h3 {
+    font-weight: normal;
+    font-size: 25px;
+    color: #004987;
+    margin-bottom: 1.2rem;
+}
+
+.box ul li {
+    text-align: start;
+    list-style: none;
+    padding: 1rem 0;
+    /* color: #666; */
+    font-size: 17px;
+
+}
+
+
 
 .solutions-container {
     min-height: 80vh;
