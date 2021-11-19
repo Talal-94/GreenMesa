@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+@font-face {
+    font-family: gotham;
+    src: url(/assets/fonts/Gotham-Medium.otf);
+}
+
 * {
     box-sizing: border-box;
     text-decoration: none;
@@ -57,7 +62,7 @@ header {
 .navbar a:hover {
     color: #000000;
     opacity: 1;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
@@ -97,7 +102,7 @@ header {
 
 .content .text h1 {
     font-family: 'gotham';
-    font-size: clamp(5rem, 5vw, 8rem);
+    font-size: clamp(4rem, 5vw, 7rem);
     font-weight: 500;
     color: rgb(0, 127, 109);
     margin: 0;
@@ -235,8 +240,6 @@ header {
         width: 85%;
         margin: 0;
     }
-    .statements .image img {
-    }
 }
 
 /* /////////////// FOOTER STUFF /////////////// */ 
@@ -300,7 +303,7 @@ header {
 }
 
 .story-container {
-    /* border: 1px solid red; */
+    border: 1px solid purple;
     display: grid;
     grid-gap: 1rem;
     grid-template: 1fr / repeat(2, 1fr);
@@ -313,7 +316,7 @@ header {
 }
 
 .story-text {
-    padding: .8rem 1rem;
+    padding: .8rem .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,22 +326,14 @@ header {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* .story-img {
-    width: 50%;
-} */
-
 .story-img img {
     height: auto;
     max-width: 100%;
-    /* flex-basis: 60%; */
-    
 }
-
 
 .team-container {
     border: 1px solid red;
     display: grid;
-    /* grid-gap: 1rem; */
     grid-template-columns: repeat(3, 1fr);
     align-items: flex-start;
 }
@@ -365,7 +360,7 @@ header {
 
 
 .big-container {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-flow: column;
     padding: 15px 7%;
@@ -378,6 +373,8 @@ header {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem 0;
+    border: 1px solid greenyellow;
+
 }
 
 .box {
@@ -400,12 +397,10 @@ header {
     margin-bottom: 1.2rem;
 }
 
-.box ul li {
+.box p {
     text-align: start;
-    list-style: none;
     padding: 1rem 0;
-    /* color: #666; */
-    font-size: 17px;
+    letter-spacing: 1.4px;
 
 }
 
